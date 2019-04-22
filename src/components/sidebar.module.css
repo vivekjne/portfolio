@@ -1,0 +1,40 @@
+.container {
+  width: 15rem;
+  background: #041230;
+  height: 100vh;
+  padding: 2rem 3rem;
+  position: fixed;
+}
+
+ul {
+  list-style: none;
+  color: #fff;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.linkContainer:hover .linkLine {
+  width: 2rem;
+}
+.link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: #e3862d;
+}
+
+.linkLine {
+  background: #e3862d;
+  height: 2px;
+  width: 0px;
+  margin-left: 0.5rem;
+  transition: 0.5s;
+}
