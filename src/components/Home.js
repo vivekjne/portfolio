@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./home.module.css"
 import Typed from "react-typed"
-
+import Arrow from "./img/arrow.png"
 export default ({ children }) => (
   <div className={styles.container}>
     <div className={styles.contentContainer}>
@@ -27,6 +27,8 @@ export default ({ children }) => (
           loop
         />
       </p>
+
+      <img src={Arrow} className={styles.arrow} />
     </div>
   </div>
 )

@@ -41,3 +41,28 @@
   font-size: 1.5rem;
   color: #fff;
 }
+
+@keyframes example {
+  25% {
+    transform: translateY(40px);
+  }
+  /* 50% {
+    transform: translateY(20px);
+  } */
+
+  80% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
